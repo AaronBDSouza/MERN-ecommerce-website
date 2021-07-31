@@ -106,13 +106,20 @@ img.medium{
     margin-bottom: 0.5rem;
 }
 
+/* Price */
 .price{
     font-size: 2rem;
+    font-weight: bold;
+    margin: 1rem;
 }
 
-/* Ratings */
-.rating{
+/* Ratings & Reviews */
+.rating span{
     color: #f0c040;
-    margin: 0.1rem;
+    margin: 0.2rem;
 }
 
+.rating span:last-child{
+    color: #404040;
+    font-weight: bold;
+}
