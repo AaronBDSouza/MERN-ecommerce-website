@@ -1,6 +1,5 @@
 {
   "name": "amazon-clone",
-  "proxy": "127.0.0.1:5000",
   "type": "module",
   "version": "1.0.0",
   "main": "index.js",
@@ -22,6 +21,8 @@
     "express": "^4.17.1"
   },
   "devDependencies": {
+    "eslint": "^7.32.0",
+    "eslint-plugin-react": "^7.24.0",
     "nodemon": "^2.0.12"
   },
   "description": ""
